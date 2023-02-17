@@ -1,0 +1,4 @@
+Gr,Idx,Name,Addr,Val,Def,Min,Max,Div,Unit
+A,01,OutFreq,0x0201,1,4,0,40000,100,Hz
+B,01,OutAmps,0x0202,2,5,0,40000,100,A
+B,02,OutV,0x0203,3,6,0,40000,100,V
