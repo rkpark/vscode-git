@@ -19,7 +19,7 @@ tree = ttk.Treeview(my_w,selectmode='browse',show='headings',height=10)
 
 tree['columns']=df.columns.values.tolist()
 #               Gr,     Idx, Name,     Addr, Val, Def, Min, Max, Div,     Unit
-colWid = [      50,      50,  200,       50,  50,  50,  50,  50,  50,       50]
+colWid = [      50,      50,  500,       50,  50,  50,  50,  50,  50,       50]
 colAln = ["center","center",  "w", "center", "e", "e", "e", "e", "e", "center"]
 
 # sb = ttk.Scrollbar(my_w, orient="vertical", command=tree.yview)
